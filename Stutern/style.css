@@ -1,0 +1,50 @@
+/* Resest */
+* {
+    /* Alternative box-model */
+    box-sizing: border-box;
+    /* padding and margin */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+.intro {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h3 {
+    text-align: center;
+    margin: 2rem 3rem;
+}
+
+.list_about {
+    list-style: none;
+    text-decoration: none;
+}
+
+.i_am, .i_like {
+    text-align: center;
+    padding: 0;
+}
+
+.my_project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.images {
+    justify-self: center;
+    padding: 4%;
+}
