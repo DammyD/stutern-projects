@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>HTML CARD</title>
+    <style>
+        * {
+            /* Reset*/
+            /* Alternative box sizing */
+            box-sizing: border-box;
+            /* Reset padding and margin on all elements*/
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.5;
+            font-size: 18px;
+            width: 400px;
+        }
+       #card {
+            background-color: #00ffff;
+            padding: 20px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            margin-left: 15px;
+        }
+
+        #card_header {
+            background-color: #0011ff;
+            color: #ffffff;
+            padding: 12px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            margin: 15px 0 0 15px;
+        }
+
+        button {
+            border-radius: 25px;
+            padding: 15px;
+            background-color: #0011ff;
+            color: #ffffff;
+            font-size: 16px;
+        }
+
+        .features li {
+            list-style: none;
+            background-image: url('img/green-checkmark.svg');
+            background-repeat: no-repeat;
+            padding-left: 2rem;
+        }
+        .dash {
+            border-bottom: 1px dashed #000000;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="card_header">
+        <header>
+            <h4>Most popular</h4>
+        </header>
+    </div>
+    <div id="card">
+       
+        <h3>Pro</h3>
+        <br>
+
+        <p>For teams and departments who need to build connected apps to power their most important processes</p>
+        <br>
+        <h1>$20</h1>
+
+        <p>per seat /month
+           <br /> billed annually</p>
+           <br />
+
+        <button>Try for free</button>
+        <br>
+        <br />
+        <h4>Everything in Plus, plus:</h4>
+        <br />
+
+        <ul class="features">
+
+        <li>10 <span class="dash">extensions</span> per base</li>
+        <li>7 sync integrations including jira Cloud</li>
+        <li>50,000 records per base</li>
+        <li>20GB at attachments per base</li>
+        <li>Gantt & Timeline Views</li>
+        <li>Granular intrface permissions</li>
+        <li>1-year revision & snapshot history</li>
+        <li>Personal & locked views</li>
+        <li>Field & table editing permissions</li>
+        </ul>
+    </div>
+</body>
+</html>
