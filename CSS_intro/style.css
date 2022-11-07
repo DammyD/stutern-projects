@@ -1,0 +1,40 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.external_styled_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    margin: auto;
+  }
+  .external_styled_list li {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .external_styled_list .red {
+    color: red;
+  }
+  .external_styled_list .blue {
+    color: blue;
+  }
+  .external_styled_list .yellow {
+    color: yellow;
+  }
+  .external_styled_list .green {
+    color: green;
+  }
+  .external_styled_list .orange {
+    color: orange;
+  }
+  .external_styled_list .purple {
+    color: purple;
+  }
+  .external_styled_list img {
+   width: 30px; 
+   height: 30px;
+    border-radius: 50%;
+  }
